@@ -20,7 +20,7 @@ metadata:
   labels:
     app: apache
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       app: apache
@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: apache
-        image: itguruanil/apache-docker-example:1
+        image: itguruanil/apache-docker-example:2
         imagePullPolicy: Always
         ports:
         - containerPort: 80
