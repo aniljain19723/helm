@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: apache
-        image: itguruanil/apache-docker-example:3
+        image: itguruanil/apache-docker-example:4
         imagePullPolicy: Always
         ports:
         - containerPort: 80
