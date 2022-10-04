@@ -3,10 +3,6 @@ kind: AnalysisTemplate
 metadata:
  name: success-rate
 spec:
- args:
- - name: service-name
- - name: prometheus-port
-   value: "80"
  metrics:
  - name: success-rate
    successCondition: result[0] >= 20
