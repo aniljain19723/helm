@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: apache-rollouts-demo
-        image: itguruanil/webserver:3
+        image: itguruanil/webserver:4
         ports:
         - name: http
           containerPort: 80
