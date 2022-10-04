@@ -8,7 +8,7 @@ spec:
    successCondition: result[0] >= 20
    provider:
      prometheus:
-       address: "http://http://10.182.0.40/:"
+       address: "http://10.182.0.40/:"
        query: |
          sum(netdata_haproxy_f_hrsp_4xx_responses_persec_average{job="PGP-Prod-boss-haproxy"})
 
