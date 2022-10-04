@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: apache
-        image: itguruanil/httpd-webserver:1
+        image: itguruanil/httpd-webserver:2
         imagePullPolicy: Always
         ports:
         - containerPort: 80
