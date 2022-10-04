@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: apache-rollouts-demo
-        image: itguruanil/httpd-webserver:1
+        image: itguruanil/httpd-webserver:2
         ports:
         - name: http
           containerPort: 80
