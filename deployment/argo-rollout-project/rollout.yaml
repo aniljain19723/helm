@@ -3,9 +3,11 @@ kind: Rollout
 metadata:
   name: apache-rollouts-demo
 spec:
-  replicas: 5
+  replicas: 20
   strategy:
     canary:
+      maxSurge: 25%
+      maxUnavailable: 0
       analysis:
         templates:
         - templateName: success-rate
